@@ -1,0 +1,105 @@
+.services{
+    padding: 100px 0;
+}
+
+.services h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    width: 31%;
+    padding: 32px 36px 36px 0;
+    background: rgba(238, 238, 238, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card h3{
+    max-width: 340px;
+    background-image: url('../assets/imgs/ttl-bg.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    padding-left: 50px;
+    margin-bottom: 24px;
+    color: rgba(250, 250, 250, 1);
+    padding: 5px 30px 11px 36px;
+}
+.big-card h3{
+    padding-right: 81px;
+}
+.big-card{
+    width: 48%;
+}
+.card ul{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 36px;
+}
+.card li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: rgba(2, 44, 99, 1);
+    font-weight: 500;
+    transition: all .5s;
+}
+.card li svg{
+    flex-shrink: 0;
+}
+.card li:hover{
+    color:rgba(9, 122, 215, 1);
+}
+.card li:hover svg path{
+    fill: rgba(9, 122, 215, 1);
+}
+.big-card li{
+    width: 50%;
+
+}
+
+@media (max-width: 1000px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .card{
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    .cards{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 650px) {
+    .services{
+        padding: 50px 0;
+    }
+    .services h2{
+        margin-bottom: 25px;
+    }
+    .cards{
+        gap: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .big-card h3{
+        padding-right: 0px;
+    }
+    .big-card li{
+        width: 100%;
+    }
+    
+}
