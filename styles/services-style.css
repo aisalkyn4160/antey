@@ -13,7 +13,7 @@
     gap: 30px;
 }
 .card{
-    width: 31%;
+    width: calc((100% / 3) - 20px);
     padding: 32px 36px 36px 0;
     background: rgba(238, 238, 238, 1);
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@
     padding-right: 81px;
 }
 .big-card{
-    width: 48%;
+    width: calc(50% - 15px);
 }
 .card ul{
     display: flex;
@@ -45,15 +45,16 @@
 }
 .card li{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     gap: 20px;
     color: rgba(2, 44, 99, 1);
     font-weight: 500;
     transition: all .5s;
+    cursor: pointer;
 }
 .card li svg{
     flex-shrink: 0;
+    margin-top: 7px;
 }
 .card li:hover{
     color:rgba(9, 122, 215, 1);
@@ -63,9 +64,18 @@
 }
 .big-card li{
     width: 50%;
+}
+.big-card  .card-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
 
 }
-
+.big-card .card-list li{
+    width: 48%;
+}
 @media (max-width: 1000px) {
     .cards{
         display: grid;

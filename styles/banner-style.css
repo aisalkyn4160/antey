@@ -7,18 +7,19 @@
     position: relative;
     z-index: 1;
     max-width: 550px;
+    margin: 7px 0;
 }
 .banner-title::after{
     content: '';
     display: block;
     position: absolute;
-    width: 100vw;
     height: 100%;   
     background-image: url('../assets/imgs/banner-ttl.png');
     background-repeat: no-repeat;
-    background-position: right center;
+    background-size: cover;
     top: 50%;
     right: 0;
+    left: -100vw;
     transform: translateY(-50%);
     z-index: -1;
 }
