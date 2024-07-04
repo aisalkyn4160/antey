@@ -1,6 +1,5 @@
 .banner{
-    padding: 138px 0 213px;
-}
+    padding: 138px 0 218px; }
 
 .banner-title{
     color: rgba(250, 250, 250, 1);
@@ -8,15 +7,14 @@
     z-index: 1;
     max-width: 550px;
     margin: 7px 0;
+    padding: 1px 65px 9px 0px;
 }
 .banner-title::after{
     content: '';
     display: block;
     position: absolute;
-    height: 100%;   
-    background-image: url('../assets/imgs/banner-ttl.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 100%;  
+    background: url('../assets/icons/Rectangle\ 1145.svg') no-repeat top right /cover;
     top: 50%;
     right: 0;
     left: -100vw;
@@ -29,13 +27,20 @@
     margin-top: 24px;
     margin-bottom: 40px;
 }
-
+.banner .btn{
+    display: inline-block;
+}
 @media (max-width: 650px){
     .banner{
         padding: 50px 0 80px;           
     }
     .banner p{
         margin: 12px 0 20px;
+        max-width: 390px;
+    }
+    .banner-title{
+        max-width: 255px;
+        padding-right: 30px;
     }
     
 }
