@@ -4,6 +4,7 @@
 @import url('services-style.css');
 @import url('./form-style.css');
 @import url('./footer-style.css');
+@import url('./main-page-style.css');
 /* -------------------------------------------reset-styles------------------------------------------- */
 *{
     margin: 0;
@@ -111,7 +112,9 @@ footer{
 	margin: 0 auto;
 	padding: 0 15px;
 }
-
+svg{
+	flex-shrink: 0;
+}
 @media (max-width: 650px) {
 	h2{
 		font-size: 23px;

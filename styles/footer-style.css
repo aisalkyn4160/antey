@@ -3,6 +3,7 @@
 }
 .footer .container{
     padding-top: 60px;
+    overflow: hidden;
 }
 .footer-top{
     padding: 42px 0 184px;
@@ -23,15 +24,21 @@
 }
 
 .footer-menu .contacts{
-    width: min-content;
+    width: 350px;
     align-items: flex-start;
-    gap: 120px;
+    justify-content: flex-start;
+    gap: 80px;
     margin-top: -5px;
 }
 
 .footer-menu .contacts div{
     gap: 12px;
 }
+.footer-menu .contacts p{
+    display: flex;
+    gap: 10px;
+}
+
 .development {
     display: flex;
     gap: 20px;

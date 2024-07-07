@@ -48,7 +48,7 @@
     justify-content: space-between;
     gap: 20px;
     color: rgba(2, 44, 99, 1);
-    font-weight: 500;
+    font-weight: 600;
     transition: all .5s;
     cursor: pointer;
 }
