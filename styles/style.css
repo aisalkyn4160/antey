@@ -2,9 +2,9 @@
 @import url('header-style.css');
 @import url('banner-style.css');
 @import url('services-style.css');
-@import url('./form-style.css');
-@import url('./footer-style.css');
-@import url('./main-page-style.css');
+@import url('form-style.css');
+@import url('footer-style.css');
+@import url('services-page-style.css');
 /* -------------------------------------------reset-styles------------------------------------------- */
 *{
     margin: 0;
@@ -91,6 +91,7 @@ h3{
 p{
 	color: rgba(147, 161, 180, 1);
 	font-weight: 400;
+	cursor: context-menu;
 }
 footer{
 	flex-shrink: 0;

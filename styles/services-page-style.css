@@ -1,11 +1,11 @@
-.main-page .banner{
+.services-page .banner{
     padding-bottom: 147px;
 }
-.main-page .banner-title{
+.services-page .banner-title{
     max-width: 580px;
 }
 
-.main-page .banner p{
+.services-page .banner p{
     margin-bottom: 24px;
 }
 .banner-price{
