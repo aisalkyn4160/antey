@@ -66,6 +66,7 @@ input:invalid + span:after {
     text-align: center;
     max-width: 300px;
     margin-top: 8px;
+    cursor: context-menu;
 }
 .privacy a{
     color: rgba(255,255,255,1) !important;
