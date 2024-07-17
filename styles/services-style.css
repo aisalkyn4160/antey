@@ -43,7 +43,7 @@
     gap: 24px;
     padding-left: 36px;
 }
-.card li{
+.card li a{
     display: flex;
     justify-content: space-between;
     gap: 20px;

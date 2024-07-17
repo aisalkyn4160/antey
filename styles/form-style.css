@@ -33,12 +33,12 @@ form textarea{
 textarea::placeholder{
     color: rgba(147, 161, 180, 1);
 }
-label {
+.input-box {
     position: relative;
     width: 100%;
 }
   
-label span {
+.input-box span {
     position: absolute;
     top: 16px;
     left: 24px;
